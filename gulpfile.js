@@ -29,7 +29,7 @@ gulp.task('less', function() {
 });
 
 // Minify compiled CSS
-gulp.task('minify-css', ['less'], function() {
+gulp.task('minify-css', ['sass'], function() {
     return gulp.src('css/agency.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(rename({ suffix: '.min' }))
