@@ -232,8 +232,7 @@ section {
         text-transform: none;
         font-style: italic;
         font-weight: 400;
-        margin-bottom: 75px;
-    }
+        margin-bottom: 75px;    }
 }
 
 @media(min-width:768px) {
@@ -297,6 +296,8 @@ section {
             background-color: white;
             text-align: center;
             padding: 25px;
+            min-height: 130px;
+
             h4 {
                 text-transform: none;
                 margin: 0;
